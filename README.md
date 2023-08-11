@@ -57,7 +57,6 @@ Feel free to refer to this table as a quick reference for understanding differen
 
 
 
-```plaintext
 Supervised Models:
 --------------------
 Model                  Description              Data Requirement                    Performance Metrics                Performance Tuning
@@ -125,5 +124,4 @@ XGBoost               Optimized version of     Categorical/numerical data       
 LightGBM              Gradient Boosting         Categorical/numerical data           Various metrics (e.g., RMSE,        Learning rate, number of leaves,
                       framework that's memory-                                       Log-loss)                          boosting type, max bin, feature fraction
                       efficient
-```
 
