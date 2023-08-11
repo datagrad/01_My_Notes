@@ -49,3 +49,81 @@ Certainly, here's the revised comparative table with the requested column order:
 | Supervised             | LightGBM               | Gradient Boosting framework that's memory-efficient | Categorical or numerical data                   | Various metrics (e.g., RMSE, Log-loss) | Learning rate, number of leaves, boosting type, maximum bin, feature fraction                               |
 
 Feel free to refer to this table as a quick reference for understanding different machine learning models, their characteristics, data requirements, performance metrics, and performance tuning approaches.
+
+
+
+
+
+
+
+
+```plaintext
+Supervised Models:
+--------------------
+Model                  Description              Data Requirement                    Performance Metrics                Performance Tuning
+--------------------  -----------------------  --------------------------------    --------------------------------  --------------------------------
+Linear Regression     Linear relationship     Continuous numerical data            MSE, R-squared                      Feature engineering, regularization
+                      between features and                                         &nbsp;                              
+                      target                                                        &nbsp;                              
+                                                                                   &nbsp;                              
+Logistic Regression   Probability of binary    Binary/multiclass classification      Accuracy, Precision, Recall         Regularization, feature engineering
+                      outcome using logistic                                       &nbsp;                              
+                      function                                                      &nbsp;                              
+                                                                                   &nbsp;                              
+Decision Trees        Tree-like model based    Categorical/numerical data           Accuracy, Gini Impurity             Pruning, maximum depth
+                      on feature decisions                                          &nbsp;                              
+                                                                                   &nbsp;                              
+Random Forest         Ensemble of decision     Categorical/numerical data           Accuracy, Gini Impurity             Number of trees, max depth
+                      trees to improve                                              &nbsp;                              
+                      accuracy                                                      &nbsp;                              
+                                                                                   &nbsp;                              
+Support Vector        Hyperplane for class      Binary/multiclass classification     Accuracy, Precision, Recall         Choice of kernel, regularization
+Machines (SVM)        separation in                                                 &nbsp;                              
+                      high-dimensional space                                        &nbsp;                              
+                                                                                   &nbsp;                              
+k-Nearest Neighbors   Predicts based on        Numerical data                       Accuracy, Precision, Recall         Number of neighbors (k)
+                      majority class of k-nearest                                   &nbsp;                              
+                      neighbors                                                      &nbsp;                              
+                                                                                   &nbsp;                              
+Naive Bayes           Uses Bayes' theorem for   Text classification, categorical    Accuracy, Precision, Recall         Laplace smoothing, feature engineering
+                      classification            data                                &nbsp;                              
+                                                                                   &nbsp;                              
+                                                                                   &nbsp;                              
+
+Unsupervised Models:
+----------------------
+Model                  Description              Data Requirement                    Performance Metrics                Performance Tuning
+--------------------  -----------------------  --------------------------------    --------------------------------  --------------------------------
+PCA                   Reduces dimensionality   Numerical data                       Variance explained,                Number of components, data scaling
+                      while preserving variance                                     Reconstruction error
+                                                                                   &nbsp;
+K-Means Clustering    Divides data into         Numerical data                       Inertia, Silhouette Score           Number of clusters, initialization
+                      clusters based on                                             &nbsp;                               method
+                      similarity
+                                                                                   &nbsp;
+Hierarchical          Builds hierarchy of       Numerical/categorical data           Linkage, Cophenetic correlation     Linkage method, distance metric
+Clustering           clusters from data
+                                                                                   &nbsp;
+Gaussian Mixture      Represents data           Numerical data                       Log-likelihood                     Number of components, covariance
+Model                 distribution as mixture                                      &nbsp;                               type, initialization method
+                      of Gaussian distributions
+                                                                                   &nbsp;
+Support Vector        Divides data into         Numerical data                       Margin, Silhouette Score           Kernel choice, regularization
+Clustering            clusters using support                                        &nbsp;                               parameter (C)
+                      vector boundaries
+                                                                                   &nbsp;
+Neural Networks       Mimics human brain's      Numerical data                       Accuracy, Loss                      Architecture, activation functions,
+                      structure and function                                         &nbsp;                               optimization algorithm
+                                                                                   &nbsp;
+Gradient Boosting     Combines weak models to   Categorical/numerical data           Various metrics (e.g., RMSE,        Learning rate, number of estimators,
+                      create strong predictive                                      Log-loss)                          depth of trees
+                      model
+                                                                                   &nbsp;
+XGBoost               Optimized version of     Categorical/numerical data           Various metrics (e.g., RMSE,        Learning rate, number of estimators,
+                      Gradient Boosting                                               Log-loss)                          max depth, regularization
+                                                                                   &nbsp;
+LightGBM              Gradient Boosting         Categorical/numerical data           Various metrics (e.g., RMSE,        Learning rate, number of leaves,
+                      framework that's memory-                                       Log-loss)                          boosting type, max bin, feature fraction
+                      efficient
+```
+
