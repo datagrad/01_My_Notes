@@ -1,4 +1,7 @@
-Certainly, here's an expanded version of the comparative table that includes more machine learning models:
+
+
+
+A Comparative study of various ML Models:
 
 | Model                  | Supervised/Unsupervised | Data Requirement                                  | Performance Metrics                 | Performance Tuning                                                                                              |
 |------------------------|------------------------|---------------------------------------------------|-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
